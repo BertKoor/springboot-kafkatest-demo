@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+app:
+  produce:
+    topic.name: nl.bertkoor.springboot.kafkatest.produce.topic
+logging:
+  level:
+    ROOT: info
+    org.apache.kafka.clients.producer: warn
+    org.apache.kafka.clients.admin: warn

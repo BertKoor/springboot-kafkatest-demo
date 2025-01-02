@@ -1,0 +1,8 @@
+kafka:
+  broker:
+    port: ${random.int(20000,50000)}
+logging:
+  level:
+    kafka: warn
+    org.apache.kafka: warn
+    org.apache.zookeeper: warn
