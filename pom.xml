@@ -7,6 +7,7 @@
     <version>1.0.0</version>
 
     <properties>
+        <!-- set spring-boot.version to 3.3.2 and higher to see the issue -->
         <spring-boot.version>3.3.0</spring-boot.version>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
